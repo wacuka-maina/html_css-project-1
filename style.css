@@ -1,0 +1,247 @@
+/* reset default marging and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  style the whole page use html or body tag */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* utility classes */
+.container{
+    max-width: 1900px;
+    margin: auto;
+    overflow: hidden;
+}
+.lead{
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.text-primary{
+    color: #f7c083;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-orange{
+    background-color: #f7c083;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+/* navbar */
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+#navbar a{
+    color: white;
+    margin-right: 20px;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar ul{
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    color: #f7c083;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: #444;
+
+}
+/* Showcase text section */
+#showcase{
+    background-image: url(/images/showcase.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    font-weight: 1.2em;
+}
+#showcase .showcase-content p{
+    line-height: 1.5em;
+}
+#showcase .showcase-content h1 span{
+    color: white;
+}
+
+/* home info section */
+#home-info{
+    height: 500px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background-image: url(/images/photo-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #333;
+    color: white;
+}
+#home-info .info-content .btn{
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 10;
+}
+
+/* change box-1 box 2 box 3 to block elements */
+.box-1, .box-2, .box-3{
+    display: block;
+}
+
+/* features  */
+.box{
+    float: left;
+    width: 33.3%;
+    display: block; 
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+}
+/* footer */
+#main-footer{
+    background-color: #444;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+/* About info */
+#about-info{
+    padding: 20px 0;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-left h1{
+    font-size: 40px;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+}
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background-image: url(/images/test-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+#testimonials h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+#testimonials .testimonial{
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px ;
+    border-radius: 50%;
+
+}
+/* contact */
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form .form-group label{
+    display: block;
+}
+
+#contact-form .container h1{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+#contact-form .form-group input, #contact-form .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1% solid #ddd;
+}
+#contact-form .form-group textarea{
+    height: 200px;
+}
+#contact-form form{
+    padding: 5px;
+}
+/*  */
+#contact-form .form-group input:focus, #contact-form .form-group textarea:focus{
+border-color: #f7c083;
+outline: none;
+}
+.bx{
+    height: 400px;
+}
+#contact-info{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+
+
+
